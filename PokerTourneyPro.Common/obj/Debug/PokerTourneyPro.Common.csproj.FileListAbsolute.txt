@@ -1,0 +1,11 @@
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\bin\Debug\PokerTourneyPro.Common.dll
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\bin\Debug\PokerTourneyPro.Common.pdb
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\bin\Debug\Autofac.dll
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\bin\Debug\Autofac.xml
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\PokerTourneyPro.Common.csprojResolveAssemblyReference.cache
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\PokerTourneyPro.Common.dll
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\PokerTourneyPro.Common.pdb
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\PokerTourneyPro.Common.g.resources
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\PokerTourneyPro.Common_MarkupCompile.cache
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\PokerTourneyPro.Common_MarkupCompile.lref
+C:\Source Code\PokerTourneyPro\PokerTourneyPro.Common\obj\Debug\Resources\Common.baml

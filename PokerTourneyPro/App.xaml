@@ -1,0 +1,11 @@
+﻿<Application x:Class="PokerTourneyPro.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PokerTourneyPro"
+             Startup="Application_Startup">
+    <Application.Resources>
+		<ResourceDictionary>
+			<FontFamily x:Key="AlarmClock">pack://application:,,,/PokerTourneyPro.Common;Component/Resources/#alarm clock</FontFamily>
+		</ResourceDictionary>
+    </Application.Resources>
+</Application>

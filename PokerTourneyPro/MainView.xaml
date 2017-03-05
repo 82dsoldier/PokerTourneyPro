@@ -1,0 +1,23 @@
+﻿<Window x:Class="PokerTourneyPro.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PokerTourneyPro"
+		xmlns:app="clr-namespace:PokerTourneyPro"
+		xmlns:global="clr-namespace:PokerTourneyPro.Common;assembly=PokerTourneyPro.Common"
+        mc:Ignorable="d"
+        Title="MainView" Height="350" Width="525">
+	<Window.Resources>
+		<ResourceDictionary>
+			<global:AutofacDataProvider
+				DataTypeName="PokerTourneyPro.Interfaces.IMainViewModel"
+				AutofacContainer="{Binding Source={x:Static global:Global.Container}}"
+				x:Key="DataSource" />
+		</ResourceDictionary>
+	</Window.Resources>
+	<Grid>
+		<TextBlock FontSize="72" Text="{Binding Path=CurrentBlindTime, StringFormat=mm:ss}" FontFamily="{StaticResource AlarmClock}" />
+		<Button Command="{Binding Path=StartTimer}" Width="75" Height="25">Start Timer</Button>
+	</Grid>
+</Window>
